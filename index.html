@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Academic Record Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Student Academic Record Management System</h1>
+<p>Frontend & Backend Separation Demo</p>
+
+<div class="box">
+    <h3>Enter Student Details</h3>
+
+    <input type="text" id="name" placeholder="Student Name">
+    <input type="number" id="roll" placeholder="Roll Number"><br>
+
+    <input type="number" id="m1" placeholder="Subject 1">
+    <input type="number" id="m2" placeholder="Subject 2">
+    <input type="number" id="m3" placeholder="Subject 3">
+    <input type="number" id="m4" placeholder="Subject 4">
+    <input type="number" id="m5" placeholder="Subject 5">
+
+    <br><br>
+    <button onclick="addStudentUI()">Add Student</button>
+</div>
+
+<div class="box">
+    <button onclick="showAllUI()">Display All</button>
+    <button onclick="topperUI()">Show Topper</button>
+</div>
+
+<div class="box" id="output"></div>
+
+<script src="backend.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
+

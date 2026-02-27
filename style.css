@@ -1,0 +1,47 @@
+body {
+    font-family: Arial;
+    background: #f4f6f8;
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+.box {
+    background: white;
+    width: 70%;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #bbb;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+    width: 170px;
+}
+
+button {
+    padding: 8px 15px;
+    margin: 5px;
+    background: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2c80b4;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #aaa;
+    padding: 8px;
+}
